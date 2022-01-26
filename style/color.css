@@ -1,0 +1,11 @@
+html {
+    background-color: #0dcaf0;
+    font-weight: bold;
+    text-align: center;
+}
+main {
+    font-size: 35px;
+}
+#substyle {
+    font-size: 25px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/color.css">
+    <title>PC Builder</title>
+</head>
+<body>
+<main>
+    <h1>Want to Build a Gaming PC?</h1>
+
+    <p>So you are interested in building a gaming PC? Well you came to right place. First,<br>
+        lets understand what type of case you would like. Now, depending on the type of case<br>
+        the motherboard has to match the form fitting. After that you can pick out your power supply<br>
+        making sure the dimensions match with the case you picked out. Next will be the RAM cards, SSD, NvMe,<br>
+        graphics card, CPU, and fans. Now you are wondering how to purchase you parts. Below are a couple<br>
+        links that will help you get started.</p>
+
+    <p>Computer Part Links:</p>
+    <a href="https://www.newegg.com/">Newegg</a><br>
+    <a href="https://www.microcenter.com/">Micro Center</a><br>
+
+    <form>
+        Username:<br>
+        <input type="text" name="us_name"><br>
+        Password:<br>
+        <input type="password" name="pas_wor"><br>
+        <input type="submit" id="substyle" value="Sign In">
+    </form><br>
+
+    <form>
+        Was this site helpful?:<br>
+        <input type="radio" id="yes" name="y_n" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="y_n" value="No">
+        <label for="no">No</label><br>
+    </form><br>
+
+    <form>
+        Which PC part would you buy first?<br>
+        <label for="case">Case</label>
+        <input type="checkbox" id="case" name="cas_1"><br>
+        <label for="case">Motherboard</label>
+        <input type="checkbox" id="mother" name="mot_1"><br>
+        <label for="case">Power Supply</label>
+        <input type="checkbox" id="pow" name="pow_1"><br>
+        <label for="case">Graphics Card</label>
+        <input type="checkbox" id="gpu" name="gp_1"><br>
+        <label for="case">RAM Cards</label>
+        <input type="checkbox" id="ram" name="ra_1"><br>
+        <label for="case">SSD</label>
+        <input type="checkbox" id="ssd" name="sd_1"><br>
+        <label for="case">NvMe</label>
+        <input type="checkbox" id="nvme" name="nm_1"><br>
+        <label for="case">CPU</label>
+        <input type="checkbox" id="cpu" name="cu_1"><br>
+        <label for="case">Fans</label>
+        <input type="checkbox" id="fan" name="fn_1"><br>
+        <input type="submit" id="substyle" value="Submit"><br>
+    </form><br>
+
+</main>
+<button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+<p id="demo"></p>
+</body>
+</html>
